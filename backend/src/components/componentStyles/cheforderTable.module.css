@@ -1,0 +1,30 @@
+.tableContainer {
+  display: flex;
+  justify-content: center;
+  font-size: .75rem;
+}
+
+.chefTable {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.chefTable thead {
+  background-color: #f2f2f2;
+}
+
+.chefTable th,
+.chefTable td {
+  padding: 12px 20px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+  font-family: Arial, sans-serif;
+}
+
+.chefTable th {
+  font-weight: bold;
+}
+
+

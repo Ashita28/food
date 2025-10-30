@@ -1,0 +1,28 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  border: 2px solid gray;
+  border-bottom: none;
+  width: 29.5vw;
+  height: 100vh;
+  margin: auto;
+  border-top: none;
+}
+
+button, input{
+  outline: 0;
+  border: none;
+}
+
+.noScroll {
+  overflow: hidden;
+  height: 100dvh;
+}

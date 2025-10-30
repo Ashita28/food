@@ -1,0 +1,45 @@
+.card{
+    border: 2px solid #D9D9D9;
+    width: 23rem;
+    height: 19.5rem;
+    border-radius: 5px;
+    background-color: var(--bg-clr);
+}
+
+.cardHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 2px solid #D9D9D9;
+    color: #6E6E6E;
+
+    h3{
+        font-size: medium;
+    }
+
+    p{
+        font-size: small;
+        margin-top: .5rem;
+    }
+}
+
+.dropDown{
+    padding: .5rem;
+    border-radius: 2rem;
+    border: 2px solid #D9D9D9;
+}
+
+
+
+.plotCard {
+  margin: 0.75rem 0.9rem 0.9rem;
+  height: 65%;           
+  background: #ffffff;
+  border: 1.5px solid #E6E9ED;
+  border-radius: 14px;
+  padding: 0.25rem;
+  box-shadow:
+    0 1px 0 rgba(0,0,0,0.02),
+    0 2px 8px rgba(0,0,0,0.03);
+}

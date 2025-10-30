@@ -1,0 +1,124 @@
+.backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; 
+  z-index: 999;
+}
+
+.sheet {
+  width: 29.1vw;
+  height: 25rem;
+  background: #f3f7f6; 
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 0 -6px 24px rgba(0, 0, 0, 0.15);
+  padding: 16px 16px calc(16px + env(safe-area-inset-bottom));
+  max-height: 75dvh; 
+  overflow-y: auto;
+  position: relative;
+}
+
+.closeBtn {
+  position: fixed;
+  top: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 44px;
+  height: 44px;
+  border-radius: 22px;
+  border: none;
+  background: #2b2b2b;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+.closeBtn img {
+  width: 18px;
+  height: 18px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 4px 0 6px;
+  color: #111;
+}
+
+.ipArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.textareaBorder{
+  padding: .5rem;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.ipArea textarea {
+  width: 20rem;
+  border-radius: 10px;
+  border: 2px solid #e5e5e5;
+  padding: 10px 12px;
+  font-size: 14px;
+  resize: none;
+  background-color: #F0F5F3;
+  outline: none;
+}
+.ipArea textarea:focus {
+  border-color: #cfd3d8;
+}
+
+.note {
+  font-size: 11px;
+  color: #7b7b7b;
+  line-height: 1.35;
+}
+
+.btns {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  margin-top: 8px;
+  width: 100%;
+  background-color: white;
+  padding: .7rem 1rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.btnLight,
+.btnDark {
+  width: 10rem;
+  padding: .75rem 2rem;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+}
+
+.btnLight {
+  background-color: #F0F5F3;
+  color: #3a3a3a;
+}
+
+.btnDark {
+  background: #3a3939;
+  color: #fff;
+}
+

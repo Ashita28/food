@@ -1,0 +1,42 @@
+.navbar{
+    margin-bottom: 1rem;
+    padding: .5rem 1rem;
+}
+
+.header{
+    color: #231100;
+    margin-bottom: 1rem;
+
+    h1{
+        font-size: medium;
+        font-weight: 500;
+        margin-bottom: .3rem;
+    }
+
+    p{
+        font-size: .9rem;
+    }
+}
+
+.search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F0F5F3;
+    padding: .5rem;
+    gap: .5rem;
+    border-radius: .5rem;
+
+
+    input{
+        border: none;
+        outline: none;
+        background-color: transparent;
+        width: 100%;
+        padding: .2rem;
+    }
+
+    img{
+        height: 1rem;
+    }
+}

@@ -1,0 +1,37 @@
+:root{
+  --bg-clr : #F0F5F3;
+  --processing-clr : #ffe3bc;
+  --completed-clr : #b9f8c9;
+  --takeaway-clr : #c2d4d9;
+  --processing-label-clr : #fdd193;
+  --completed-label-clr : #31FF65;
+  --takeaway-label-clr : #9BAEB3;
+  --processing-text-clr : #D87300;
+  --completed-text-clr : #0E912F;
+  --takeaway-text-clr : #3B413D;
+  --page-heading-clr: #565656;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, li {
+  list-style: none;
+}
+
+input, button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+button{
+  cursor: pointer;
+}
+
+select{
+  outline: none;
+}

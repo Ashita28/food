@@ -1,0 +1,52 @@
+.popup{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer{
+    background-color: #e6e6e6bd;
+    width: 21rem;
+    border-radius: 1rem;
+    padding: 0 1rem;
+    padding-bottom: 1rem;
+
+    h1{
+        text-align: center;
+        font-size: 1.5rem;
+        padding: .5rem;
+        font-weight: 400;
+    }
+
+    button{
+        background-color: #2C2C2C;
+        color: white;
+        padding: .5rem 1rem;
+        border-radius: .5rem;
+        margin-top: 1rem;
+    }
+}
+
+.btnContainer{
+    text-align: center;
+}
+
+.ipFields{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    input{
+        padding: .3rem .5rem;
+        border-radius: 1rem;
+        margin-bottom: .3rem;
+    }
+
+    label{
+        font-size: smaller;
+        margin-bottom: .2rem;
+        margin-left: .5rem;
+    }
+}

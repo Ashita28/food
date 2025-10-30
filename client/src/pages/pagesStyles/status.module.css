@@ -1,0 +1,83 @@
+.statusPage {
+  position: fixed;
+  height: 100vh;
+  width: 29.5vw;
+  top: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 16px;
+  color: #fff;
+}
+
+.statusPage.success {
+  background-color: #20bf6d; 
+}
+
+.statusPage.failure {
+  background-color: #e74c3c; 
+}
+
+.centerWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20vh;
+  gap: 16px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 22px;
+  text-align: center;
+}
+
+.checkWrap {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  background: #d9d9d9;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  animation: pop 280ms ease-out;
+}
+
+.checkIcon {
+  width: 28px;
+  height: 28px;
+}
+
+.crossIcon {
+  font-size: 32px;
+  font-weight: 700;
+  color: #2c2c2c;
+  line-height: 1;
+  margin-top: -4px;
+}
+
+.errorMsg {
+  font-size: 14px;
+  text-align: center;
+  max-width: 240px;
+  line-height: 1.4;
+  color: #fff;
+  opacity: 0.95;
+}
+
+.countdown {
+  margin: 24px 0 8px;
+  font-size: 12px;
+  opacity: 0.95;
+}
+
+@keyframes pop {
+  0% { transform: scale(0.85); opacity: 0.2; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .checkWrap { animation: none; }
+}

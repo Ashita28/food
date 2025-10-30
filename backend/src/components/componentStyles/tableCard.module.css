@@ -1,0 +1,81 @@
+.tableCard{
+  position: relative;
+  width: 7.3rem;
+  height: 6rem;
+}
+
+.tableCardData{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #D9D9D9;
+  border-radius: 8px;
+  background-color: var(--bg-clr); 
+  transition: box-shadow .2s ease, transform .2s ease, border-color .2s ease;
+}
+
+.tableCardData:hover{
+  transform: translateY(-1px);
+  box-shadow: 0 2px 12px rgba(0,0,0,.06);
+  border-color: #cfd6dc;
+}
+
+.delBtn{
+  position: absolute;
+  top: .35rem;
+  right: .4rem;
+  height: .8rem;
+}
+
+.tableInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-weight: 700;
+  color: #2b2f33;
+}
+
+.tableInfo h3{
+  font-size: .95rem;           
+  line-height: 1;
+  margin: 0;
+  font-weight: 700;
+  opacity: .95;
+}
+
+.tableInfo p{
+  font-size: 1.8rem;         
+  line-height: 1;
+  margin: .20rem 0 0;
+  font-weight: 800;
+  letter-spacing: .5px;
+}
+
+.chairInfo{
+  display: flex;
+  justify-content: end;
+  padding-right: .3rem;
+  align-items: center;
+  gap: .18rem;
+  font-size: .60rem;
+  position: absolute;
+  left: 0;
+  bottom: .35rem;
+  color: #6b7280;
+  width: 100%;
+}
+
+.chairInfo img{
+  height: .65rem;
+  opacity: .9;
+}
+
+.chairTimes{
+  font-size: .65rem;
+  line-height: 1;
+  margin: 0 .05rem;
+}
+
+.tableMeta{ display: none; }
