@@ -14,7 +14,7 @@ const analyticsRoutes = require("./routes/analyticsRoutes");
 const app = express();
 
 const PORT   = process.env.PORT;            
-const ADMIN  = process.env.ADMIN
+const ADMIN  = process.env.ADMIN  || 'https://food-brown-kappa.vercel.app/';
 const CLIENT = process.env.CLIENT
 
 const allowedOrigins = new Set([ADMIN, CLIENT]);
